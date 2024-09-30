@@ -3,7 +3,7 @@ import GooglePlacesAutocomplete from 'react-google-places-autocomplete';
 import { Button } from '@/components/ui/button';
 import { AI_PROMPT, SelectBudgetOption, SelectTravelersList } from '@/constants/options';
 import { toast } from "sonner";
-import Input from '../components/ui/Input';
+import Input from '../components/ui/input';
 import { chatSession } from '@/service/AIModal';
 import { FaNfcDirectional } from "react-icons/fa6";
 
