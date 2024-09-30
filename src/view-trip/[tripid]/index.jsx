@@ -2,7 +2,7 @@ import { db } from '@/service/firebaseconfig';
 import { doc, getDoc } from 'firebase/firestore';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import InfoSection from './components/infoSection';
+import InfoSection from './components/InfoSection';
 import Hotels from './components/Hotels';
 import { Hotel } from 'lucide-react';
 import PlaceToVisit from './components/PlaceToVisit';
